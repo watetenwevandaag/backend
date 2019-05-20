@@ -1,5 +1,6 @@
 package com.wewv.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,9 +21,10 @@ public class Recipe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    @OneToMany(mappedBy = "recipe", cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL)
     private List<Ingredient> ingredients;
-    private String equipmentUsed;
+    @ElementCollection
+    private List<String> equipmentUsed;
     private String image;
     private String description;
     private Boolean isVegan;
@@ -30,5 +32,9 @@ public class Recipe {
     private int dislikes;
     private int forNumberOfPeople;
     private Time cookingTime;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(nullable = false)
+    @JsonIgnore
+    private Cook owner;
 }
 

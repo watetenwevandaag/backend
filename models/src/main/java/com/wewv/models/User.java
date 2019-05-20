@@ -7,11 +7,12 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name = "user")
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
 public class User{
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -23,7 +24,6 @@ public class User{
     private String password;
 
 
-    //  login
     public User(String username, String password) {
         this.username = username;
         this.password = password;
