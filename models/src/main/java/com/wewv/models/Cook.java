@@ -21,6 +21,7 @@ public class Cook {
     private String username;
     private String email;
 
+    @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL)
     private List<Recipe>ownRecipes;
 

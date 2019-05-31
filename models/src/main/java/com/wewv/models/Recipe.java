@@ -1,6 +1,7 @@
 package com.wewv.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import javax.persistence.*;
 import java.sql.Time;
 import java.util.List;
 
-@Entity
+@Entity(name = "recipe")
 @NoArgsConstructor
 @AllArgsConstructor
 @Setter
@@ -32,9 +33,22 @@ public class Recipe {
     private int dislikes;
     private int forNumberOfPeople;
     private Time cookingTime;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(nullable = false)
-    @JsonIgnore
     private Cook owner;
+
+    public Recipe(Cook owner, String name, List<Ingredient>ingredients, List<String> equipmentUsed, String image, String description, boolean isVegan, int likes, int dislikes, int forNumberOfPeople, Time cookingTime ){
+        this.owner = owner;
+        this.name = name;
+        this.ingredients = ingredients;
+        this.equipmentUsed = equipmentUsed;
+        this.image = image;
+        this.description = description;
+        this.isVegan = isVegan;
+        this.likes = likes;
+        this.dislikes = dislikes;
+        this.forNumberOfPeople = forNumberOfPeople;
+        this.cookingTime = cookingTime;
+    }
 }
 

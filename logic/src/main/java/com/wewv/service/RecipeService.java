@@ -23,6 +23,10 @@ public class RecipeService {
         return true;
     }
 
+    public List<Recipe> getByName(String name){
+        return recipeRepository.findByNameContains(name);
+    }
+
     public Recipe getById(int recipeId){
         return recipeRepository.getOne(recipeId);
     }

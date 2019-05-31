@@ -24,7 +24,7 @@ public class Ingredient {
     private int quantity;
     private String unit;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(nullable = false)
     @JsonIgnore
     private Recipe recipe;
