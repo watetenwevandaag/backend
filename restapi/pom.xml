@@ -13,8 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>restapi</name>
     <description>Demo project for Spring Boot</description>
-
+    <packaging>war</packaging>
     <properties>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
         <java.version>1.8</java.version>
     </properties>
 
