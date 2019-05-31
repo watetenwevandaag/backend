@@ -12,7 +12,6 @@
         <module>dal</module>
         <module>restapi</module>
         <module>models</module>
-        <module>service</module>
         <module>logic</module>
     </modules>
 

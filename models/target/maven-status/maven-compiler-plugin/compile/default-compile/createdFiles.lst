@@ -1,0 +1,4 @@
+com\wewv\models\Cook.class
+com\wewv\models\Ingredient.class
+com\wewv\models\Recipe.class
+com\wewv\models\User.class

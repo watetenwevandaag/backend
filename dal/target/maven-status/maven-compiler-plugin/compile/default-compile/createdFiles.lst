@@ -1,0 +1,4 @@
+com\wewv\dal\IngredientSpringRepository.class
+com\wewv\dal\RecipeSpringRepository.class
+com\wewv\dal\CookRepository.class
+com\wewv\dal\UserRepository.class

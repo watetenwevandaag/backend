@@ -1,0 +1,4 @@
+com\wewv\service\UserService.class
+com\wewv\service\RecipeService.class
+com\wewv\service\CookService.class
+com\wewv\components\CookComponent.class
