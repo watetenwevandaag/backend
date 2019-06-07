@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/cook")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4201", "http://localhost:4200"})
 public class CookController {
 
     @Autowired

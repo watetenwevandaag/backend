@@ -1,5 +1,6 @@
 package com.wewv.dal;
 
+import com.wewv.models.Cook;
 import com.wewv.models.Recipe;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -12,4 +13,6 @@ import java.util.List;
 public interface RecipeSpringRepository extends JpaRepository<Recipe,Integer> {
 
     List<Recipe> findByNameContains(String name);
+
+    List<Recipe> findByOwner(Cook owner);
 }

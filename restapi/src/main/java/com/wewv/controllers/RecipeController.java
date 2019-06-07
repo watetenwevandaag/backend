@@ -6,19 +6,21 @@ import com.wewv.models.Ingredient;
 import com.wewv.models.Recipe;
 import com.wewv.service.CookService;
 import com.wewv.service.RecipeService;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.lang.reflect.Array;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 @RestController
 @RequestMapping("/recipe")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4201", "http://localhost:4200"})
 public class RecipeController {
 
     @Autowired
@@ -48,6 +50,12 @@ public class RecipeController {
         return new ResponseEntity<List<Recipe>>(recipes, HttpStatus.OK);
     }
 
+    @GetMapping(value = "/getByCook/{name}")
+    public ResponseEntity<List<Recipe>> getByCook(@PathVariable String name){
+        List<Recipe> recipes = recipeService.getByOwner(cookService.getByUsername(name));
+        return new ResponseEntity<List<Recipe>>(recipes, HttpStatus.OK);
+    }
+
     @GetMapping(value = "/weekmenu")
     public ResponseEntity<List<Recipe>> getWeekMenu(){
         List<Recipe> recipes = recipeService.getAll();
@@ -73,6 +81,27 @@ public class RecipeController {
         }
         recipeService.create(recipeToSave);
         return new ResponseEntity<>(recipeToSave, HttpStatus.OK);
+    }
+
+    @PutMapping(value = "/update")
+    public ResponseEntity<Recipe> update(@RequestBody Recipe recipeToSave){
+        Recipe recipeToUpdate = recipeService.getById(recipeToSave.getId());
+        System.out.println(recipeToUpdate.getName() +"tosave:"+ recipeToSave.getName());
+        recipeToUpdate.setName(recipeToSave.getName());
+        for (Ingredient ingredient: recipeToSave.getIngredients()) {
+            ingredient.setRecipe(recipeToSave);
+        }
+        recipeToUpdate.setIngredients(recipeToSave.getIngredients());
+        recipeToUpdate.setDescription(recipeToSave.getDescription());
+        recipeToUpdate.setForNumberOfPeople(recipeToSave.getForNumberOfPeople());
+        recipeToUpdate.setCookingTime(recipeToSave.getCookingTime());
+        recipeToUpdate.setEquipmentUsed(recipeToSave.getEquipmentUsed());
+        recipeToUpdate.setIsVegan(recipeToSave.getIsVegan());
+        recipeToUpdate.setDislikes(recipeToSave.getDislikes());
+        recipeToUpdate.setLikes(recipeToSave.getLikes());
+        System.out.println(recipeToUpdate.getName() +"tosave:"+ recipeToSave.getName());
+        recipeService.create(recipeToUpdate);
+        return new ResponseEntity<Recipe>(recipeToUpdate, HttpStatus.OK);
     }
 
     @GetMapping(value = "/test")

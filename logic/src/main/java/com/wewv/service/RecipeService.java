@@ -1,6 +1,7 @@
 package com.wewv.service;
 
 import com.wewv.dal.RecipeSpringRepository;
+import com.wewv.models.Cook;
 import com.wewv.models.Recipe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,6 +26,10 @@ public class RecipeService {
 
     public List<Recipe> getByName(String name){
         return recipeRepository.findByNameContains(name);
+    }
+
+    public List<Recipe> getByOwner(Cook owner){
+        return recipeRepository.findByOwner(owner);
     }
 
     public Recipe getById(int recipeId){
