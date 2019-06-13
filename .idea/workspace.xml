@@ -30,67 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/RecipeController.java">
+        <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/User.java">
+        <entry file="file://$PROJECT_DIR$/restapi/src/test/java/com/wewv/restapi/RestapiApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restapi/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/Cook.java">
+        <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/RecipeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/CookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/CookController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/RecipeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="463">
+              <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,31 +69,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/Recipe.java">
+        <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/restapi/RestapiApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/CookRepository.java">
+        <entry file="file://$PROJECT_DIR$/dal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/IngredientSpringRepository.java">
+        <entry file="file://$PROJECT_DIR$/logic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,6 +102,8 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -160,23 +129,33 @@
         <option value="$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/UserRepository.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/wewv/models/User.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/components/UserComponent.java" />
-        <option value="$PROJECT_DIR$/logic/pom.xml" />
         <option value="$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/CookRepository.java" />
         <option value="$PROJECT_DIR$/restapi/src/main/java/com/wewv/restapi/RestapiApplication.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/service/CookService.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/service/UserService.java" />
-        <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/components/CookComponent.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/wewv/models/Ingredient.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/wewv/models/Recipe.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/com/wewv/models/Cook.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dal/pom.xml" />
-        <option value="$PROJECT_DIR$/restapi/pom.xml" />
-        <option value="$PROJECT_DIR$/restapi/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/CookController.java" />
         <option value="$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/RecipeSpringRepository.java" />
         <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/service/RecipeService.java" />
         <option value="$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/RecipeController.java" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/components/CookComponent.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/components/CookComponentTest.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/service/RecipeServiceTest.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/restapi/src/main/resources/test/CookConfig.java" />
+        <option value="$PROJECT_DIR$/restapi/src/main/resources/test/test.properties" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/service/CookServiceTest.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/service/test.properties" />
+        <option value="$PROJECT_DIR$/logic/src/main/java/com/wewv/service/UserService.java" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/resources/test.properties" />
+        <option value="$PROJECT_DIR$/logic/pom.xml" />
+        <option value="$PROJECT_DIR$/logic/src/test/java/com/wewv/service/CookConfig.java" />
+        <option value="$PROJECT_DIR$/restapi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/restapi/pom.xml" />
+        <option value="$PROJECT_DIR$/restapi/src/test/java/com/wewv/restapi/RestapiApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -203,6 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +284,21 @@
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,12 +394,40 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEWV-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,8 +438,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559735439653" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560430985644" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -423,7 +449,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wewv.service" />
+      <recent name="com.wewv.components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitKraken\Repos\WEWV-backend\restapi\src\main\resources\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitKraken\Repos\WEWV-backend\restapi\src\main\resources\test" />
       <recent name="D:\GitKraken\Repos\WEWV-backend\models\target\classes\META-INF" />
     </key>
   </component>
@@ -439,7 +476,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RestapiApplication">
+    <configuration name="RestapiApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wewv.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wewv.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.wewv.restapi.RestapiApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestapiApplicationTests.createRecipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wewv.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wewv.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.wewv.restapi.RestapiApplicationTests" />
+      <option name="METHOD_NAME" value="createRecipe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestapiApplicationTests.testCreateCookAndGetUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wewv.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wewv.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.wewv.restapi.RestapiApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateCookAndGetUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wewv.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wewv.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.wewv.restapi.RestapiApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateRecipeAndFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestapiApplicationTests.testGetRecipesFromOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wewv.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wewv.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.wewv.restapi.RestapiApplicationTests" />
+      <option name="METHOD_NAME" value="testGetRecipesFromOwner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="restapi" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wewv.restapi.RestapiApplication" />
@@ -449,6 +564,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.RestapiApplication" />
+      <item itemvalue="JUnit.RestapiApplicationTests.createRecipe" />
+      <item itemvalue="JUnit.RestapiApplicationTests.testCreateCookAndGetUsername" />
+      <item itemvalue="JUnit.RestapiApplicationTests" />
+      <item itemvalue="JUnit.RestapiApplicationTests.testGetRecipesFromOwner" />
+      <item itemvalue="JUnit.RestapiApplicationTests.testCreateRecipeAndFindByName" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RestapiApplicationTests" />
+        <item itemvalue="JUnit.RestapiApplicationTests.testCreateRecipeAndFindByName" />
+        <item itemvalue="JUnit.RestapiApplicationTests.testGetRecipesFromOwner" />
+        <item itemvalue="JUnit.RestapiApplicationTests.testCreateCookAndGetUsername" />
+        <item itemvalue="JUnit.RestapiApplicationTests.createRecipe" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -483,18 +615,57 @@
       <workItem from="1559737670724" duration="1057000" />
       <workItem from="1559741183932" duration="126000" />
       <workItem from="1559753737492" duration="5455000" />
-      <workItem from="1559916814227" duration="3270000" />
+      <workItem from="1559916814227" duration="4655000" />
+      <workItem from="1560193279080" duration="5226000" />
+      <workItem from="1560199201997" duration="629000" />
+      <workItem from="1560247686425" duration="5284000" />
+      <workItem from="1560327740303" duration="237000" />
+      <workItem from="1560411886399" duration="6674000" />
+      <workItem from="1560423799244" duration="4776000" />
+      <workItem from="1560450218615" duration="7133000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RestapiApplicationTests_testCreateCookAndGetUsername - 2019.06.13 at 11h 26m 10s.xml">
+      <configuration name="RestapiApplicationTests.testCreateCookAndGetUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 26m 39s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 31m 45s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testGetRecipesFromOwner - 2019.06.13 at 11h 37m 34s.xml">
+      <configuration name="RestapiApplicationTests.testGetRecipesFromOwner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testGetRecipesFromOwner - 2019.06.13 at 11h 39m 15s.xml">
+      <configuration name="RestapiApplicationTests.testGetRecipesFromOwner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 39m 45s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 41m 28s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 43m 45s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests_testCreateRecipeAndFindByName - 2019.06.13 at 11h 44m 38s.xml">
+      <configuration name="RestapiApplicationTests.testCreateRecipeAndFindByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestapiApplicationTests - 2019.06.13 at 13h 24m 34s.xml">
+      <configuration name="RestapiApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89296000" />
+    <option name="totallyTimeSpent" value="120640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -503,8 +674,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3167028" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3167028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,24 +725,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/models/target/classes/META-INF/persistince.tld" />
-    <entry file="file://$PROJECT_DIR$/models/target/classes/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/restapi/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/RecipeRepository.java" />
     <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/TestControllers.java" />
-    <entry file="file://$PROJECT_DIR$/logic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -656,24 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
@@ -691,27 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/components/CookComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/restapi/RestapiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -726,27 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/RecipeSpringRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/CookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -757,30 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/CookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -791,23 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/RecipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -815,10 +884,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/components/CookComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/CookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/test/CookConfig.java" />
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/test/test.properties.xml" />
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/test/test.properties" />
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/service/UserServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/models/src/main/java/com/wewv/models/Cook.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/CookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/service/test.properties" />
+    <entry file="file://$PROJECT_DIR$/dal/src/main/java/com/wewv/dal/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/main/java/com/wewv/service/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/resources/test.properties" />
+    <entry file="file://$PROJECT_DIR$/models/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/service/CookConfig.java" />
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/service/RecipeServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/service/CookServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/logic/src/test/java/com/wewv/components/CookComponentTest.java" />
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/src/test/java/com/wewv/restapi/RestapiApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/restapi/RestapiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/wewv/controllers/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

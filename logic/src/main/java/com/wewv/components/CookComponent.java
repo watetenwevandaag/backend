@@ -17,7 +17,6 @@ public class CookComponent{
     private UserService userService;
 
     public Cook regiser(Cook cook, String password){
-        System.out.println(userService);
         try{
             User user = new User();
             user.setUsername(cook.getUsername());
